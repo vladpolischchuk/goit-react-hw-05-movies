@@ -1,0 +1,26 @@
+.container {
+  padding: 30px 0 25px 50px;
+}
+
+.input {
+  padding: 10px 5px;
+
+  min-width: 350px;
+
+  font-size: 18px;
+}
+
+.btn:disabled {
+  background-color: rgba(98, 9, 170, 0.579);
+}
+
+.btn {
+  margin-left: 20px;
+  padding: 10px 5px;
+
+  font-size: 18px;
+
+  color: white;
+  background-color: rgb(98, 9, 170);
+  border-radius: 5px;
+}

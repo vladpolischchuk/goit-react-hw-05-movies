@@ -1,0 +1,43 @@
+.list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  list-style: none;
+}
+
+.item {
+  width: 250px;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.img {
+  margin-bottom: 15px;
+
+  max-width: 100%;
+  height: 375px;
+}
+
+.wrapper {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+  height: 100px;
+
+  text-align: center;
+}
+
+.title,
+.desc {
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.warning {
+  color: orangered;
+  font-size: 34px;
+  font-weight: 600;
+}

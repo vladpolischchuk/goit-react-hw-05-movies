@@ -1,0 +1,18 @@
+.list {
+  list-style: none;
+}
+
+.avtor {
+  font-size: 18px;
+}
+
+.review {
+  padding-left: 25px;
+  max-width: 1400px;
+}
+
+.warning {
+  color: orangered;
+  font-size: 34px;
+  font-weight: 600;
+}

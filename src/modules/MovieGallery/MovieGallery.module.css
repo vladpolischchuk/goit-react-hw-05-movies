@@ -1,0 +1,29 @@
+.title {
+  margin-left: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.list {
+  padding: 0;
+  margin: 0 0 0 100px;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+
+  color: black;
+
+  font-size: 18px;
+}
+
+.link:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+.link:hover,
+.link:focus {
+  color: rgb(221, 94, 9);
+}
