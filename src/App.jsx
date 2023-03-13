@@ -5,7 +5,7 @@ import UserRoutes from "./shared/UserRoutes";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/goit-react-hw-05-movies">
       <Navbar />
       <UserRoutes />
     </BrowserRouter>
